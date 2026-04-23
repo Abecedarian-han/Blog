@@ -19,3 +19,8 @@ featured_image = "/images/about-banner.jpg"
 - 自建博客与个人网站
 - 域名、CDN、反代、内网穿透
 - 一些代码、脚本和工具经验
+
+## 联系方式
+
+- GitHub: [Abecedarian-han](https://github.com/Abecedarian-han)
+- 邮箱: [abecedarian.site@outlook.com](mailto:abecedarian.site@outlook.com)
