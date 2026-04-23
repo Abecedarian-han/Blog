@@ -17,10 +17,10 @@ pagination.pagerSize = 6
 
 [params.ananke.social.follow]
   new_window_icon = false
-  networks = [
-    "github",
-    "email"
-  ]
+  networks = ["github"]
+
+[params.ananke.social.github]
+  username = "Abecedarian-han"
 
 [languages.zh-cn]
   languageName = "中文"
@@ -46,6 +46,11 @@ pagination.pagerSize = 6
     name = "关于"
     url = "/about/"
     weight = 3
+  [[menu.main]]
+    identifier = "email"
+    name = "邮箱"
+    url = "mailto:abecedarian.site@outlook.com"
+    weight = 4
 
 [taxonomies]
   tag = "tags"
@@ -56,6 +61,3 @@ pagination.pagerSize = 6
     [markup.goldmark.renderer]
       unsafe = true
 
-[params.social]
-  github = "Abecedarian-han"
-  email = "abecedarian.site@outlook.com"
